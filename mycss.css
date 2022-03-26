@@ -1,6 +1,7 @@
 .header_background {
     background-image: 
     url(body_background.jpg);
+    background-size: cover;
     background-color: #cccccc;
 }
 .header_text{
