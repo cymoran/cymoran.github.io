@@ -1,11 +1,5 @@
-.header_background {
+body {
     background-image: 
     url(body_background.jpg);
-    
-    
-}
-.header_text{
-
-    text-align: center;
-    color: black;
+ 
 }
