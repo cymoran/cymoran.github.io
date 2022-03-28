@@ -1,67 +1,97 @@
 .container {
-    display: grid;
-    height: 100vh;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1.5fr 1.2fr 0.8fr;
-    grid-template-areas: 
-    "main""main" 
-    "nav" "nav" 
-    "projects" "about"
-    "projects" "contact";
-    grid-gap: 2em;
-    text-transform: uppercase;
-    color: #004d40;
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1.5fr 0.3fr 1.5fr 0.5fr;
+  grid-template-areas:
+    "main main"
+    "nav nav"
+    "projects about"
+    "projects contact";
+  grid-gap: 2em;
+  text-transform: uppercase;
+  background-color: white;
+
+  color: #fca8a8;
 }
 
-nav{
-    background: #a7ffeb; 
-    grid-area: nav;
-
+main {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  grid-area: main;
+ 
+  color: black;
+  font-family: 'Arial Black', Arial, Helvetica, sans-serif;
+  font-size: 36px;
 }
 
-main{
-    background: #4b5e59;
-grid-area: main;
+nav {
 
+  background: white;
+  border-style: solid;
+  grid-area: nav;
+  color: black;
+}
+#projects {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background: #acd3cba2;
+  grid-area: projects;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 25px;
+  color: black;
+}
+#cad {
+  margin-left: 10px;
+  text-align: left;
+  font-size: 16px;
+}
+#sm {
+  margin-left: 10px;
+  text-align: left;
+  font-size: 16px;
+}
+#thermo {
+  margin-left: 10px;
+  text-align: left;
+  font-size: 16px;
 }
 
-#projects{
-background: #014938;
-grid-area: projects; 
-
+#about {
+  margin-right: 10px;
+  background: #acd3cba2;
+  grid-area: about;
+  text-align: center;
+  border-radius: 25px;
+  color: black;
 }
-#about{
-    background: #303030;
-    grid-area: about;
+#contact {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  background: #e5e5f7;
+  grid-area: contact;
+  text-align: center;
+  border-radius: 10px;
+  color: black;
 }
-#contact{
-    background: #074c9b;
-    grid-area: contact;
-}
-/*
-  body {
-    background-image: url("background.jpg");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: 100% 70%;
-    background-color: black;
-  }
-  #projects {
-    margin-top: 70px;
-    background-color: #022c44;
-    background-size: 30% no-repeat;
-    background-position: left center;
-    background-attachment: absolute;
-    border-width: 4px;
-    border-style: solid;
-    border-color: white;
-    width: 30%;
-    height: 50%;
-    max-width:300px;
-    min-width:200px;
-  }
-  ul.proj_list {
+  ul {
+      font-size: 12px;
+      text-align: left;
     list-style-type: circle;
-  }
-  */
   
+}
+ul.proj_list2 {
+    font-size: 12px;
+    text-align: left;
+  list-style-type: circle;
+
+}
+ul.proj_list3 {
+    font-size: 12px;
+    text-align: left;
+  list-style-type: circle;
+
+}
+
