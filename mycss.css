@@ -1,1 +1,67 @@
-/**/
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1.5fr 1.2fr 0.8fr;
+    grid-template-areas: 
+    "main""main" 
+    "nav" "nav" 
+    "projects" "about"
+    "projects" "contact";
+    grid-gap: 2em;
+    text-transform: uppercase;
+    color: #004d40;
+}
+
+nav{
+    background: #a7ffeb; 
+    grid-area: nav;
+
+}
+
+main{
+    background: #4b5e59;
+grid-area: main;
+
+}
+
+#projects{
+background: #014938;
+grid-area: projects; 
+
+}
+#about{
+    background: #303030;
+    grid-area: about;
+}
+#contact{
+    background: #074c9b;
+    grid-area: contact;
+}
+/*
+  body {
+    background-image: url("background.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    background-color: black;
+  }
+  #projects {
+    margin-top: 70px;
+    background-color: #022c44;
+    background-size: 30% no-repeat;
+    background-position: left center;
+    background-attachment: absolute;
+    border-width: 4px;
+    border-style: solid;
+    border-color: white;
+    width: 30%;
+    height: 50%;
+    max-width:300px;
+    min-width:200px;
+  }
+  ul.proj_list {
+    list-style-type: circle;
+  }
+  */
+  
