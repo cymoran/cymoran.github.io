@@ -38,6 +38,7 @@ nav {
   margin-bottom: 10px;
   background: #acd3cba2;
   grid-area: projects;
+  font-weight: bold;
   text-align: center;
   font-size: 24px;
   border-radius: 25px;
@@ -61,11 +62,13 @@ nav {
 
 #about {
   margin-right: 10px;
+  font-size:24px;
   background: #acd3cba2;
   grid-area: about;
   text-align: center;
   border-radius: 25px;
   color: black;
+  font-weight: bold;
 }
 #contact {
   margin-bottom: 10px;
@@ -75,12 +78,13 @@ nav {
   text-align: center;
   border-radius: 10px;
   color: black;
+  font-weight: bold;
 }
   ul {
       font-size: 12px;
       text-align: left;
     list-style-type: circle;
-  
+      
 }
 ul.proj_list2 {
     font-size: 12px;
@@ -94,4 +98,7 @@ ul.proj_list3 {
   list-style-type: circle;
 
 }
-
+#boutme{
+  font-size: 16px;
+  text-transform: none;
+}
