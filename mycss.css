@@ -10,20 +10,31 @@
     "projects contact";
   grid-gap: 2em;
   text-transform: uppercase;
-  background-color: rgb(255, 242, 227);
+  background-color: rgb(59, 59, 58);
+  background: url("nasa-Q1p7bh3SHj8-unsplash.jpg");
 
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
   color: #fca8a8;
 }
 
 main {
+  
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
   grid-area: main;
- 
-  color: black;
+  color: rgb(255, 255, 255);
   font-family: 'Arial Black', Arial, Helvetica, sans-serif;
   font-size: 36px;
+}
+
+#image{
+  margin-top: -20px;
+  margin-right: -10px;
+  height: 100%;
+  width: 100%;
+ 
 }
 
 nav {
@@ -37,13 +48,14 @@ nav {
 #projects {
   margin-left: 10px;
   margin-bottom: 10px;
-  background: #acd3cba2;
+  background: #D0D0D0;
   grid-area: projects;
   font-weight: bold;
   text-align: center;
   font-size: 24px;
   border-radius: 25px;
   color: black;
+  opacity: 0.9;
 }
 
 #cad {
@@ -66,25 +78,27 @@ nav {
 
 #about {
   margin-right: 10px;
-  font-size:24px;
-  background: #acd3cba2;
+  font-size: min(2vw, 36px);
+  background: #6c6e6e;
   grid-area: about;
   text-align: center;
   border-radius: 25px;
   color: black;
   font-weight: bold;
+  opacity: 0.9;
 }
 
 #contact {
   margin-bottom: 10px;
   margin-right: 10px;
-  background: #e5e5f7;
+  background: #C19a6b;
   grid-area: contact;
   text-align: center;
   border-radius: 10px;
   color: black;
   font-weight: bold;
   font-size: min(2vw,36px);
+  opacity: 0.9;
 }
 
   ul {
@@ -106,14 +120,12 @@ ul.proj_list3 {
 }
 
 #boutme{
-  font-size: 2vw;
+  font-weight: normal;
+  font-size: min(1.5vw, 20px);
   text-transform: none
 }
 
 #contactinfo{
   font-weight: normal;
   font-size: min(1.5vw, 20px);
-  
-
-
 }
