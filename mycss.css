@@ -33,6 +33,7 @@ nav {
   grid-area: nav;
   color: black;
 }
+
 #projects {
   margin-left: 10px;
   margin-bottom: 10px;
@@ -44,16 +45,19 @@ nav {
   border-radius: 25px;
   color: black;
 }
+
 #cad {
   margin-left: 10px;
   text-align: left;
   font-size: 16px;
 }
+
 #sm {
   margin-left: 10px;
   text-align: left;
   font-size: 16px;
 }
+
 #thermo {
   margin-left: 10px;
   text-align: left;
@@ -70,6 +74,7 @@ nav {
   color: black;
   font-weight: bold;
 }
+
 #contact {
   margin-bottom: 10px;
   margin-right: 10px;
@@ -79,26 +84,36 @@ nav {
   border-radius: 10px;
   color: black;
   font-weight: bold;
+  font-size: min(2vw,36px);
 }
+
   ul {
       font-size: 12px;
       text-align: left;
     list-style-type: circle;
-      
 }
+
 ul.proj_list2 {
     font-size: 12px;
     text-align: left;
   list-style-type: circle;
-
 }
+
 ul.proj_list3 {
     font-size: 12px;
     text-align: left;
   list-style-type: circle;
-
 }
+
 #boutme{
-  font-size: 16px;
-  text-transform: none;
+  font-size: 2vw;
+  text-transform: none
+}
+
+#contactinfo{
+  font-weight: normal;
+  font-size: min(1.5vw, 20px);
+  
+
+
 }
