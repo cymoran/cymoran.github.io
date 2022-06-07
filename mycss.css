@@ -190,21 +190,23 @@ ul.proj_list3 {
 }
 
 .navbar {
-  color: white;
-  margin-right: 20%;
-  padding-left: 10%;
-  padding-right: 10%;
-  font-size: min(20px, 4vw);
-  vertical-align: top;
-  text-align: center;
-  display: inline-block;
+display: flex;
+align-items: stretch;
+justify-content: space-evenly;
+width: 100%;
+height:fit-content;
 }
 
-#navlink{
-  
-  padding-inline-start: 1rem;
+#navmenu{
+  font-size: 22px;
+  display:inline-block;
+  flex: 0 1 auto;
+  list-style-type: none;
+  padding-left: 5%;
 }
 
+
+a:visited {color:rgb(155, 150, 150)}
 
 /* width */
 ::-webkit-scrollbar {
