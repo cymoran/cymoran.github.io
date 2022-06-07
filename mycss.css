@@ -43,13 +43,16 @@ main {
 nav {
 
   background: rgb(1, 25, 61);
-  
   grid-area: nav;
   color: black;
   border-style: solid;
+  display: inline-block;
   border-color: white;
   border-width: 2px;
   font-family: 'Courier New', monospace;
+  min-width: none;
+  padding-right: 10%;
+  vertical-align: top;
 }
 
 #projects {
@@ -186,14 +189,22 @@ ul.proj_list3 {
   font-family: 'Courier New', monospace;
 }
 
-ul.navbar > li{
+.navbar {
   color: white;
-  margin-left: 0%;
-  padding-left: 25%;
-  display: inline;
-  list-style-position:inside;
+  margin-right: 20%;
+  padding-left: 10%;
+  padding-right: 10%;
   font-size: min(20px, 4vw);
+  vertical-align: top;
+  text-align: center;
+  display: inline-block;
 }
+
+#navlink{
+  
+  padding-inline-start: 1rem;
+}
+
 
 /* width */
 ::-webkit-scrollbar {
