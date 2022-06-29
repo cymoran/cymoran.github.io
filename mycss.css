@@ -205,8 +205,10 @@ height:fit-content;
   padding-left: 5%;
 }
 
+a:link{color: rgb(246, 245, 245)}
 
 a:visited {color:rgb(155, 150, 150)}
+
 
 /* width */
 ::-webkit-scrollbar {
